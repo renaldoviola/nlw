@@ -1,0 +1,5 @@
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+
+npm run knex:migrate
+
+npm run knex:seeds
