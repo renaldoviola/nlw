@@ -1,5 +1,9 @@
+// Executa migrações
 npx knex migrate:latest --knexfile knexfile.ts migrate:latest
-
 npm run knex:migrate
 
+// Executa criação de seeds
 npm run knex:seeds
+
+// Sobe aplicação backend.
+npm run dev 
