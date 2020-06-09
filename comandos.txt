@@ -7,3 +7,14 @@ npm run knex:seeds
 
 // Sobe aplicação backend.
 npm run dev 
+
+
+//cria aplicação mobile
+ expo init mobile
+
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+
+//fontes no expo
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
